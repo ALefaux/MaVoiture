@@ -1,0 +1,11 @@
+/Users/Axou/Projects/MaVoiture/iOS/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Axou/Projects/MaVoiture/iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/Axou/Projects/MaVoiture/iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/Axou/Projects/MaVoiture/iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/Axou/Projects/MaVoiture/iOS/obj/iPhone/Debug/optimized/
+/Users/Axou/Projects/MaVoiture/iOS/bin/iPhone/Debug/Shared.iOS.exe.mdb
+/Users/Axou/Projects/MaVoiture/iOS/bin/iPhone/Debug/Shared.iOS.exe
+/Users/Axou/Projects/MaVoiture/iOS/obj/iPhone/Debug/Shared.iOS.exe
+/Users/Axou/Projects/MaVoiture/iOS/obj/iPhone/Debug/Shared.iOS.exe.mdb
+/Users/Axou/Projects/MaVoiture/iOS/bin/iPhone/Debug/Shared.dll
+/Users/Axou/Projects/MaVoiture/iOS/bin/iPhone/Debug/Shared.dll.mdb

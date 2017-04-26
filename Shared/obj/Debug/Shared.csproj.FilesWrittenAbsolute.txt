@@ -1,0 +1,10 @@
+/Users/Axou/Projects/MaVoiture/Shared/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/Axou/Projects/MaVoiture/Shared/bin/Debug/Shared.dll.mdb
+/Users/Axou/Projects/MaVoiture/Shared/bin/Debug/Shared.dll
+/Users/Axou/Projects/MaVoiture/Shared/obj/Debug/Shared.dll
+/Users/Axou/Projects/MaVoiture/Shared/obj/Debug/Shared.dll.mdb
+/Users/Axou/Projects/MaVoiture/Shared/bin/Debug/Newtonsoft.Json.dll
+/Users/Axou/Projects/MaVoiture/Shared/bin/Debug/SQLitePCLRaw.core.dll
+/Users/Axou/Projects/MaVoiture/Shared/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/Axou/Projects/MaVoiture/Shared/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/Axou/Projects/MaVoiture/Shared/bin/Debug/SQLite-net.dll
