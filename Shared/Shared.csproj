@@ -28,6 +28,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DAL\ReparationDAL.cs" />
     <Compile Include="Models\LigneReparation.cs" />
     <Compile Include="Models\Reparation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

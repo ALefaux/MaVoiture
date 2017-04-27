@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SQLite;
 
 namespace Shared.Models
 {
     class LigneReparation
     {
+        [PrimaryKey, AutoIncrement]
         public int IdLigneReparation { get; set; }
         public string Nom { get; set; }
         public decimal PrixUnite { get; set; }
