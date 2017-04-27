@@ -17,5 +17,6 @@ namespace Shared.Models
 		public decimal DistanceParcourue { get; set; }
 		public string VitesseMoyenne { get; set; }
 		public string InformationsComplementaires { get; set; }
-	}
+        public int Voiture_IdVoiture { get; set; }
+    }
 }

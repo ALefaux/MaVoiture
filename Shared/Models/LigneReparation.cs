@@ -13,5 +13,6 @@ namespace Shared.Models
         public decimal PrixUnite { get; set; }
         public int Unites { get; set; }
         public decimal PrixTotal { get; set; }
+        public int Reparation_IdReparation { get; set; }
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Shared.Models
 {
@@ -12,5 +8,6 @@ namespace Shared.Models
         public DateTime Date { get; set; }
         public decimal Prix { get; set; }
         public string Lieu { get; set; }
+        public int Voiture_IdVoiture { get; set; }
     }
 }
