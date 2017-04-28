@@ -40,8 +40,36 @@ namespace Shared.DAL
             }
             catch (SQLiteException se)
             {
-                // Montrer une exception
-                return se.Message;
+                // Afficher exception personnalisée
+            }
+        }
+
+        private Reparation SelectData(int id, string path)
+        {
+            try
+            {
+                var db = new SQLiteConnection(path);
+                Reparation reparation = db.Query<Reparation>("SELECT * FROM Reparation WHERE IdReparation = " + id).FirstOrDefault();
+
+                return reparation;
+            }
+            catch (SQLiteException se)
+            {
+                // Afficher exception personnalisée
+            }
+        }
+
+        private List<Reparation> SelectAllReparation(string path)
+        {
+            try
+            {
+                var db = new SQLiteConnection(path);
+                List<Reparation> listReparation = db.Query<Reparation>("SELECT * FROM Reparation").ToList();
+
+                return listReparation;
+            }catch(SQLiteException se)
+            {
+                // Afficher exception personnalisée
             }
         }
     }
