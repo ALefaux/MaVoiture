@@ -8,81 +8,75 @@ using System.Threading.Tasks;
 
 namespace Shared.DAL
 {
-    class ReparationDAL
+    class LigneReparationDAL
     {
         private string CreateDatabase(string path)
         {
             try
             {
                 var connexion = new SQLiteConnection(path);
-                connexion.CreateTable<Reparation>();
+                connexion.CreateTable<LigneReparation>();
 
                 return "Database created";
-            }
-            catch (SQLiteException se)
-            {
-                throw;
-            }
-        }
-
-        private string InsertUpdateData(Reparation reparation, string path)
-        {
-            try
-            {
-                var db = new SQLiteAsyncConnection(path);
-                if (db.InsertAsync(reparation).Result != 0)
-                {
-                    db.UpdateAsync(reparation);
-                    return "Single data file updated";
-                }
-
-                return "Single data file inserted";
-            }
-            catch (SQLiteException se)
-            {
-                // Afficher exception personnalisée
-                throw;
-            }
-        }
-
-        private Reparation SelectData(int id, string path)
-        {
-            try
-            {
-                var db = new SQLiteConnection(path);
-                Reparation reparation = db.Query<Reparation>("SELECT * FROM Reparation WHERE IdReparation = " + id).FirstOrDefault();
-
-                return reparation;
-            }
-            catch (SQLiteException se)
-            {
-                // Afficher exception personnalisée
-                throw;
-            }
-        }
-
-        private List<Reparation> SelectAllReparation(string path)
-        {
-            try
-            {
-                var db = new SQLiteConnection(path);
-                List<Reparation> listReparation = db.Query<Reparation>("SELECT * FROM Reparation").ToList();
-
-                return listReparation;
             }catch(SQLiteException se)
             {
-                // Afficher exception personnalisée
                 throw;
             }
         }
 
-        private int DeleteData(int id, string path) {
+        private string InsertUpdateData(LigneReparation ligneReparation, string path)
+        {
             try
             {
                 var db = new SQLiteConnection(path);
-                int result = db.ExecuteScalar<int>("DELETE FROM Reparation WHERE IdReparation = " + id);
+                if (db.Insert(ligneReparation) != 0)
+                    db.Update(ligneReparation);
 
-                return result;
+                return "Single data file inserted or updated";
+            }
+            catch (SQLiteException se)
+            {
+
+                throw;
+            }
+        }
+
+        private LigneReparation SelectData(int id, string path)
+        {
+            try
+            {
+                var db = new SQLiteConnection(path);
+
+                return db.Query<LigneReparation>("SELECT * FROM LigneReparation WHERE idLigneReparation = " + id).First();
+            }
+            catch (SQLiteException se)
+            {
+
+                throw;
+            }
+        }
+
+        private List<LigneReparation> SelectAllData(string path)
+        {
+
+            try
+            {
+                var db = new SQLiteConnection(path);
+
+                return db.Query<LigneReparation>("SELECT * FROM LigneReparation");
+            }catch(SQLiteException se)
+            {
+                throw;
+            }
+        }
+
+        private int DeleteData(int id, string path)
+        {
+            try
+            {
+                var db = new SQLiteConnection(path);
+
+                return db.ExecuteScalar<int>("DELETE FROM LigneReparation WHERE IdLigneReparation = " + id);
             }
             catch (SQLiteException se)
             {
@@ -96,13 +90,11 @@ namespace Shared.DAL
             try
             {
                 var db = new SQLiteConnection(path);
-                var count = db.ExecuteScalar<int>("SELECT Count(*) FROM Reparation");
 
-                return count;
+                return db.ExecuteScalar<int>("SELECT Count(*) FROM LigneReparation");
             }
             catch (SQLiteException se)
             {
-
                 throw;
             }
         }
