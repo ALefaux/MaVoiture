@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>Ma Voiture</string>
 	<key>CFBundleIdentifier</key>
-	<string>fr.itomorrow.ma-voiture</string>
+	<string>fr.ITomorrow.Ma-Voiture</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

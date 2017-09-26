@@ -1,18 +1,19 @@
-﻿<Properties StartupConfiguration="{69E88BC3-E63F-4095-9F5D-CFC4621C0C7A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/Models/Consommation.cs">
+﻿<Properties StartupConfiguration="{1352795E-C518-4B89-8A53-5CBA54871FA1}|Default" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewController.cs">
     <Files>
-      <File FileName="Shared/Models/Voiture.cs" Line="6" Column="3" />
-      <File FileName="Shared/Models/Consommation.cs" Line="7" Column="3" />
-      <File FileName="Shared/ViewModel/MainViewModel.cs" Line="25" Column="14" />
-      <File FileName="Shared/Helpers/RelayCommand.cs" Line="49" Column="4" />
+      <File FileName="MaVoiture/DAL/VoitureDAL.cs" Line="10" Column="10" />
+      <File FileName="MaVoiture/Dummy/DummyData.cs" Line="16" Column="45" />
+      <File FileName="iOS/Main.storyboard" />
+      <File FileName="iOS/ViewController.cs" Line="60" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.MaVoiture.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3F24D3F6-4B81-42BA-BE7D-CAE7659CB0B6" />
+  <MonoDevelop.Ide.ItemProperties.MaVoiture.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D344BE93-0DF5-41AA-9379-0AD7D113CB42">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MaVoiture.iOS>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MaVoiture.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MultiItemStartupConfigurations />
 </Properties>

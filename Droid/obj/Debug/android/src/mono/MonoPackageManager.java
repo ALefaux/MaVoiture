@@ -97,15 +97,10 @@ public class MonoPackageManager {
 
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
-		/* We need to ensure that "Shared.Droid.dll" comes first in this list. */
-		"Shared.Droid.dll",
-		"Microsoft.Practices.ServiceLocation.dll",
-		"Shared.dll",
-		"SQLite-net.dll",
-		"SQLitePCLRaw.core.dll",
-		"SQLitePCLRaw.batteries_v2.dll",
+		/* We need to ensure that "MaVoiture.Droid.dll" comes first in this list. */
+		"MaVoiture.Droid.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
 }

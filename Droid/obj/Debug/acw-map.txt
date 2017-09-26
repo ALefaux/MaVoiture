@@ -1,8 +1,4 @@
-Shared.Droid.MainActivity, Shared.Droid;md50ec1a52c4b9e102d819e2c4fc25e307f.MainActivity
-Shared.Droid.MainActivity, Shared.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50ec1a52c4b9e102d819e2c4fc25e307f.MainActivity
-Shared.Droid.MainActivity;md50ec1a52c4b9e102d819e2c4fc25e307f.MainActivity
-shared.droid.MainActivity;md50ec1a52c4b9e102d819e2c4fc25e307f.MainActivity
-Shared.Droid.ConsommationFragment, Shared.Droid;md50ec1a52c4b9e102d819e2c4fc25e307f.ConsommationFragment
-Shared.Droid.ConsommationFragment, Shared.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50ec1a52c4b9e102d819e2c4fc25e307f.ConsommationFragment
-Shared.Droid.ConsommationFragment;md50ec1a52c4b9e102d819e2c4fc25e307f.ConsommationFragment
-shared.droid.ConsommationFragment;md50ec1a52c4b9e102d819e2c4fc25e307f.ConsommationFragment
+MaVoiture.Droid.MainActivity, MaVoiture.Droid;md5a36436124d29b42dcfc87dcceac1e9ab.MainActivity
+MaVoiture.Droid.MainActivity, MaVoiture.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a36436124d29b42dcfc87dcceac1e9ab.MainActivity
+MaVoiture.Droid.MainActivity;md5a36436124d29b42dcfc87dcceac1e9ab.MainActivity
+mavoiture.droid.MainActivity;md5a36436124d29b42dcfc87dcceac1e9ab.MainActivity
